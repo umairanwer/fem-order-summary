@@ -27,7 +27,7 @@ main{
 
 }
 .card-container{
-    width: 375px;
+    width: 40rem;
     border-radius: 1.5rem;
     background-color: white;
 }
@@ -62,7 +62,7 @@ main{
 
 .plan-container{
     display: grid;
-    margin: 2rem auto;
+    margin: 2.3rem auto;
     background-color:var(--v-pale-bl);
     grid-template-columns: 1fr 2fr 1fr;
     justify-items: center;
@@ -102,7 +102,7 @@ main{
 }
 .cancel-btn{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.3rem;
     border-radius: 1rem;
     color: var(--des-bl);
 
