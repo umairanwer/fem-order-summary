@@ -27,7 +27,7 @@ main{
 
 }
 .card-container{
-    width: 40rem;
+    width: 43rem;
     border-radius: 1.5rem;
     background-color: white;
 }
@@ -38,7 +38,7 @@ main{
 .card-container h1{
     font-size: 2.9rem;
     text-align: center;
-    font-weight: 900;
+    font-weight: 700;
 }
 .card-container h2{
     font-size: 1.5rem;
@@ -82,7 +82,7 @@ main{
 }
 .plan-price h2{
     font-size: 1.7rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 .plan-price p{
     color: var(--des-bl);
