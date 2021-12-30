@@ -112,8 +112,8 @@ main{
     cursor: pointer;
 }
 
-footer p{
-    font-size: 1.6rem;
+footer p, footer a{
+    font-size: 1.2rem;
     margin-top: 1rem;
 }
 
