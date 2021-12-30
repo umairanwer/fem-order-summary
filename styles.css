@@ -1,0 +1,129 @@
+:root{
+    --pale-bl: hsl(225, 100%, 94%);
+    --bright-bl: hsl(245, 75%, 52%);
+    --v-pale-bl: hsl(225, 100%, 98%);
+    --des-bl: hsl(224, 23%, 55%);
+    --dark-bl: hsl(223, 47%, 23%);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--pale-bl);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-container{
+    width: 375px;
+    border-radius: 1.5rem;
+    background-color: white;
+}
+.card-container .main-img{
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.card-container h1{
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 900;
+}
+.card-container h2{
+    font-size: 1.5rem;
+}
+.card-container p, .card-container a{
+    font-size: 1.6rem;
+}
+.card-container h3{
+    font-size: 1.3rem;
+}
+.info-container{
+    padding: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.order-details{
+    color:var(--des-bl);
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.plan-container{
+    display: grid;
+    margin: 2rem auto;
+    background-color:var(--v-pale-bl);
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.plan-container a:hover{
+    text-decoration: none;
+    color: var(--bright-bl);
+    opacity: 0.6;
+}
+
+.plan-price{
+    justify-self: left;
+}
+.plan-price h2{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.plan-price p{
+    color: var(--des-bl);
+}
+
+.payment-btn{
+    background-color: var(--bright-bl);
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem var(--des-bl);
+}
+.payment-btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.cancel-btn{
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    color: var(--des-bl);
+
+}
+.cancel-btn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+footer p{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 375px){
+    .card-container{
+        width: 90%;
+    }
+
+    .info-container{
+        padding: 3rem;
+        padding-top: 3rem;
+    }
+}
